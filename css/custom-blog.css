@@ -1,0 +1,39 @@
+ .header a{color: white; padding:0 21px}
+@media (max-width:536px){
+	.header{display: none;}
+}
+
+.banner {background: url(../images/banner-blog.jpg) no-repeat center; background-size: cover;}
+.banner .bg-color {background-color: rgba(0, 0, 0, 0.5);}
+
+.backgroundcolor {background-color: rgba(0, 0, 0, 0.8); 
+top: 7%;
+margin: 0;
+left: 10%;
+width: 80%;
+height: 87%;}
+.searching {width: 86%}
+
+.halaman {border: 0px; color: #7c7c7d}
+.page-item.active .halaman {background-color: #17a2b8}
+.halaman:hover {color: #7c7c7d}
+
+.blog p{color: #7c7c7d}
+.blog .searching{border: 0}
+.blog .btn-info {border: 0}
+.blog .rounded-right{border-top-right-radius: 1.25rem !important;}
+.blog .rounded-right{border-bottom-right-radius: 1.25rem !important;}
+.blog .rounded-left{border-top-left-radius: 1.25rem !important;}
+.blog .rounded-left{border-bottom-left-radius: 1.25rem !important;}
+.blog .dotted {border-bottom: 1px dotted; color: #dee2e6}
+
+.salah {cursor: no-drop !important}
+
+.footer p{color:#7c7c7d;}
+.footer .judulfooter {font-weight: bold;}
+.footer .formfooter {width: 80%;}
+.footer a{color:#7c7c7d; padding: 0px}
+.footer a:hover{color: white}
+
+.copyright p{color: #7c7c7d}
+.copyright a:hover{text-decoration: none;}

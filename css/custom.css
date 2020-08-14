@@ -1,0 +1,64 @@
+.header a{color: white; padding:0 21px}
+@media (max-width:536px){
+	.header{display: none;}
+}
+
+
+.banner-blue {background: url(../images/banner-bg.jpg) no-repeat center; background-size: cover; background-position-y:0px;}
+.banner .display-4{font-weight: bold}
+@media (max-width:768px){
+	.banner img{display: none;}
+}
+
+
+.article p{color: #7c7c7d}
+.article h1, .article h5{font-weight: bold}
+.cardhilang {border:0px;}
+
+
+.service h1, .service h5{font-weight: bold}
+.service p{color: #7c7c7d}
+@media (min-width: 768px){
+	.service {background: #faf9ff url(../images/about-img.jpg) no-repeat center; background-position: right;}
+}
+
+.gallery img{max-height: 232px}
+.gallery .modaldialog {margin:15rem auto;}
+.gallery a:hover{text-decoration: none;}
+
+.orders {background: url(../images/discount-bg.jpg) no-repeat center; background-size:cover; background-position-y: 0px;}
+.orders h1, .orders h5{font-weight: bold}
+.orders .form-control {background: transparent; color: white}
+.orders .form-control::placeholder {color: white}
+.bg-color {background-color: rgba(255, 19, 147, 0.7);}
+
+.works h1, .works .t{font-weight: bold}
+.works .ts{color:#7c7c7d }
+@media (max-width: 768px) {
+	.works img{display: none;}
+}
+
+.asked h1{font-weight: bold;}
+.asked p{color:#7c7c7d;}
+.asked .cd{color:#7c7c7d}
+
+.namacard {background-image: linear-gradient(-90deg, #cc91ff,#8890ff);}
+.namacard h5 {margin-bottom: 0px; font-weight: bold}
+.namacard p{color:#7c7c7d;}
+.namacard ol{bottom: -40px}
+.namacard h1{font-weight: bold}
+
+.blog h1{font-weight: bold}
+.blog p{color:#7c7c7d;}
+.blog .textblog {font-weight: bold;}
+.blog a img{filter: grey; -webkit-filter: grayscale(1); -webkit-transition: all  ease-in-out;}
+.blog a img:hover{filter: none; -webkit-filter: grayscale(0);}
+
+.footer p{color:#7c7c7d;}
+.footer .judulfooter {font-weight: bold;}
+.footer .formfooter {width: 80%;}
+.footer a{color:#7c7c7d; padding: 0px}
+.footer a:hover{color: white}
+
+.copyright p{color: #7c7c7d}
+.copyright a:hover{text-decoration: none;}
